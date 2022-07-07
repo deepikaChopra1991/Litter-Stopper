@@ -1,0 +1,6 @@
+framework module Pods_Litter_Stopper {
+  umbrella header "Pods-Litter Stopper-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,15 +7,37 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
+import Fabric
+import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var ClockTimer :Timer!
+    var timerSecond :Int!
+    var passDetailsModel1 : aboutCleanModel!
+    var PassDetailsModel2 : SaveItemDetailsModel!
+    var PassdetailsModel3 : SaveTimeAndEffortContentModel!
+    var PassdetailsFullAudit : SaveItemFullAuditCleanModel!
+    var PassDetailsPartialAudit : SaveItempartialAuditCleanModel!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        timerSecond = 0
         // Override point for customization after application launch.
+        IQKeyboardManager.shared.enable = true
+        setupMainController()
+        //Setup Window Color
+        window?.backgroundColor=UIColor.white
+        self.window?.makeKeyAndVisible()
+        Fabric.with([Crashlytics.self])
+        
+        passDetailsModel1 = aboutCleanModel.init()
+        PassDetailsModel2 = SaveItemDetailsModel.init()
+        PassdetailsModel3 = SaveTimeAndEffortContentModel.init()
+        PassdetailsFullAudit = SaveItemFullAuditCleanModel.init()
+        PassDetailsPartialAudit = SaveItempartialAuditCleanModel.init()
         return true
     }
 
@@ -38,9 +60,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
+        if AppDelegate.sharedDelegate.ClockTimer != nil{
+            AppDelegate.sharedDelegate.ClockTimer.invalidate()
+        }
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
+    class var sharedDelegate:AppDelegate {
+        return UIApplication.shared.delegate as! AppDelegate
+    }
+    
+    func getViewControllerFromCustomer(viewControllerName identifier : String)->AnyObject{
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let controller:AnyObject = storyBoard.instantiateViewController(withIdentifier: identifier)as AnyObject
+        return controller
+        
+    }
+    func setupMainController(){
+        if isWalkThroughRead {
+            let homeNaigation  = getViewControllerFromCustomer(viewControllerName: "HomeNavigation") as! UINavigationController
+            self.window?.rootViewController = homeNaigation
+        }else{
+            
+        }
+    }
 
 }
 

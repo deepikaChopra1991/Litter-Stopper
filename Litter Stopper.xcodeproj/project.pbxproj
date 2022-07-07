@@ -3,18 +3,72 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491CC180212FF23D00796FC4 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491CC17F212FF23D00796FC4 /* AboutVC.swift */; };
+		491CC184212FF27600796FC4 /* AdminLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491CC183212FF27600796FC4 /* AdminLoginVC.swift */; };
+		491CC186212FF29200796FC4 /* TimeEffortVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491CC185212FF29200796FC4 /* TimeEffortVC.swift */; };
+		4925239F212EE4A70082D921 /* AboutBeachPatrolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4925239E212EE4A70082D921 /* AboutBeachPatrolVC.swift */; };
+		492523A1212EE4BE0082D921 /* AboutLoveStreetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492523A0212EE4BE0082D921 /* AboutLoveStreetVC.swift */; };
+		492523A3212EE4E40082D921 /* AboutCleanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492523A2212EE4E40082D921 /* AboutCleanVC.swift */; };
 		49272E1F2121976E0056358A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49272E1E2121976E0056358A /* AppDelegate.swift */; };
 		49272E212121976E0056358A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49272E202121976E0056358A /* ViewController.swift */; };
 		49272E242121976E0056358A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49272E222121976E0056358A /* Main.storyboard */; };
 		49272E26212197700056358A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49272E25212197700056358A /* Assets.xcassets */; };
 		49272E29212197700056358A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49272E27212197700056358A /* LaunchScreen.storyboard */; };
+		49272E3D21219B640056358A /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49272E3C21219B640056358A /* AppManager.swift */; };
+		49747D25212AEEE5009FC736 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49747D24212AEEE5009FC736 /* HomeVC.swift */; };
+		49747D27212AEF19009FC736 /* BeachPatrolGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49747D26212AEF19009FC736 /* BeachPatrolGroupVC.swift */; };
+		49747D29212AEF41009FC736 /* LoveStreetGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49747D28212AEF41009FC736 /* LoveStreetGroupVC.swift */; };
+		49747D2B212AF15F009FC736 /* GroupsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49747D2A212AF15F009FC736 /* GroupsCell.swift */; };
+		EA26EC042140FD1000275CE1 /* PartialAuditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26EC032140FD1000275CE1 /* PartialAuditVC.swift */; };
+		EA26EC062140FD4400275CE1 /* PartialAuditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26EC052140FD4400275CE1 /* PartialAuditCell.swift */; };
+		EA26EC082141444F00275CE1 /* TimeAndEffortVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA26EC072141444F00275CE1 /* TimeAndEffortVc.swift */; };
+		EA3DEFD1215255300027AA46 /* FullAuditCleanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3DEFD0215255300027AA46 /* FullAuditCleanVC.swift */; };
+		EA53805C213FBC8C00C45FCF /* BpLosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53805B213FBC8C00C45FCF /* BpLosVC.swift */; };
+		EA538060213FFC9300C45FCF /* BpLosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53805F213FFC9300C45FCF /* BpLosCell.swift */; };
+		EA5380622140087600C45FCF /* FullAuditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5380612140087600C45FCF /* FullAuditCell.swift */; };
+		EA5380642140089600C45FCF /* FullAuditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5380632140089500C45FCF /* FullAuditVC.swift */; };
+		EA56549621366BBB00181F84 /* StartCleanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA56549521366BBB00181F84 /* StartCleanVC.swift */; };
+		EA5654A12136D5CF00181F84 /* DiallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA56549D2136D5CF00181F84 /* DiallingCodes.plist */; };
+		EA5654A22136D5CF00181F84 /* CountryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA56549E2136D5CF00181F84 /* CountryListCell.swift */; };
+		EA5654A32136D5CF00181F84 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA56549F2136D5CF00181F84 /* Country.swift */; };
+		EA5654A42136D5CF00181F84 /* CountryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5654A02136D5CF00181F84 /* CountryListVC.swift */; };
+		EA57AFD32147B495006BE336 /* GroupDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA57AFD22147B495006BE336 /* GroupDataModel.swift */; };
+		EA5DFD812142301100CBA722 /* PartialAuditDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5DFD802142301100CBA722 /* PartialAuditDetailVC.swift */; };
+		EA5DFD8321423B6100CBA722 /* PartialAuditDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5DFD8221423B6100CBA722 /* PartialAuditDetailCell.swift */; };
+		EA5EA34C2154BA0A003229D0 /* futura_bold_font_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA5EA34B2154BA0A003229D0 /* futura_bold_font_0.ttf */; };
+		EA5FE8AF2137BAF000D5B283 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5FE8AE2137BAEF00D5B283 /* ServerManager.swift */; };
+		EA5FE8B32137BB1600D5B283 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FE8B12137BB1600D5B283 /* MBProgressHUD.m */; };
+		EA5FE8BB2137C16C00D5B283 /* MessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5FE8BA2137C16C00D5B283 /* MessageView.m */; };
+		EA5FE8BE2137C20F00D5B283 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5FE8BD2137C20F00D5B283 /* NotificationView.swift */; };
+		EA5FE8C02137C25700D5B283 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5FE8BF2137C25700D5B283 /* Reachability.swift */; };
+		EA5FE8C22137C2C500D5B283 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5FE8C12137C2C400D5B283 /* Config.swift */; };
+		EA5FE8C42137C45900D5B283 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5FE8C32137C45900D5B283 /* Extensions.swift */; };
+		EA5FE8DD2137F8C600D5B283 /* Futura Bold font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA5FE8D82137F8BC00D5B283 /* Futura Bold font.ttf */; };
+		EA5FE8DE2137F8C600D5B283 /* AvenirLTStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = EA5FE8D92137F8BE00D5B283 /* AvenirLTStd-Book.otf */; };
+		EA5FE8DF2137F8C600D5B283 /* AvenirLTStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EA5FE8DA2137F8C000D5B283 /* AvenirLTStd-Medium.otf */; };
+		EA5FE8E02137F8C600D5B283 /* AvenirLTStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EA5FE8DB2137F8C200D5B283 /* AvenirLTStd-Light.otf */; };
+		EA5FE8E12137F8C600D5B283 /* AvenirLTStd-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = EA5FE8DC2137F8C400D5B283 /* AvenirLTStd-Roman.otf */; };
+		EA5FE8E42137F94B00D5B283 /* doktermonstroexpand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA5FE8E22137F94700D5B283 /* doktermonstroexpand.ttf */; };
+		EA5FE8E52137F94B00D5B283 /* doktermonstrocond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA5FE8E32137F94900D5B283 /* doktermonstrocond.ttf */; };
+		EA671A8B213E54870064B683 /* WalkThroughVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA671A8A213E54860064B683 /* WalkThroughVC.swift */; };
+		EA70DC2B214FC247006E3824 /* BeachpatrolUrlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70DC2A214FC247006E3824 /* BeachpatrolUrlVC.swift */; };
+		EA70DC2D214FDC25006E3824 /* LOSUrlVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA70DC2C214FDC25006E3824 /* LOSUrlVc.swift */; };
+		EA94F11021648B5F00D87399 /* AboutCleanEditedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA94F10F21648B5F00D87399 /* AboutCleanEditedVC.swift */; };
+		EED1BF5A3C9BD64847AABCEC /* Pods_Litter_Stopper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DF404554F0A1CC7CADE80B /* Pods_Litter_Stopper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2412F652D1574C5D47A2773A /* Pods-Litter Stopper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Litter Stopper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Litter Stopper/Pods-Litter Stopper.debug.xcconfig"; sourceTree = "<group>"; };
+		491CC17F212FF23D00796FC4 /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		491CC183212FF27600796FC4 /* AdminLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginVC.swift; sourceTree = "<group>"; };
+		491CC185212FF29200796FC4 /* TimeEffortVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEffortVC.swift; sourceTree = "<group>"; };
+		4925239E212EE4A70082D921 /* AboutBeachPatrolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutBeachPatrolVC.swift; sourceTree = "<group>"; };
+		492523A0212EE4BE0082D921 /* AboutLoveStreetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutLoveStreetVC.swift; sourceTree = "<group>"; };
+		492523A2212EE4E40082D921 /* AboutCleanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCleanVC.swift; sourceTree = "<group>"; };
 		49272E1B2121976E0056358A /* Litter Stopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Litter Stopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49272E1E2121976E0056358A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49272E202121976E0056358A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +76,51 @@
 		49272E25212197700056358A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49272E28212197700056358A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49272E2A212197700056358A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49272E3C21219B640056358A /* AppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		49747D24212AEEE5009FC736 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		49747D26212AEF19009FC736 /* BeachPatrolGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachPatrolGroupVC.swift; sourceTree = "<group>"; };
+		49747D28212AEF41009FC736 /* LoveStreetGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveStreetGroupVC.swift; sourceTree = "<group>"; };
+		49747D2A212AF15F009FC736 /* GroupsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsCell.swift; sourceTree = "<group>"; };
+		69CE15024AD2CBDDFB8CEAAF /* Pods-Litter Stopper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Litter Stopper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Litter Stopper/Pods-Litter Stopper.release.xcconfig"; sourceTree = "<group>"; };
+		B0DF404554F0A1CC7CADE80B /* Pods_Litter_Stopper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Litter_Stopper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA26EC032140FD1000275CE1 /* PartialAuditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialAuditVC.swift; sourceTree = "<group>"; };
+		EA26EC052140FD4400275CE1 /* PartialAuditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialAuditCell.swift; sourceTree = "<group>"; };
+		EA26EC072141444F00275CE1 /* TimeAndEffortVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndEffortVc.swift; sourceTree = "<group>"; };
+		EA3DEFD0215255300027AA46 /* FullAuditCleanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullAuditCleanVC.swift; sourceTree = "<group>"; };
+		EA53805B213FBC8C00C45FCF /* BpLosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpLosVC.swift; sourceTree = "<group>"; };
+		EA53805F213FFC9300C45FCF /* BpLosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BpLosCell.swift; sourceTree = "<group>"; };
+		EA5380612140087600C45FCF /* FullAuditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullAuditCell.swift; sourceTree = "<group>"; };
+		EA5380632140089500C45FCF /* FullAuditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullAuditVC.swift; sourceTree = "<group>"; };
+		EA56549521366BBB00181F84 /* StartCleanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCleanVC.swift; sourceTree = "<group>"; };
+		EA56549D2136D5CF00181F84 /* DiallingCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DiallingCodes.plist; sourceTree = "<group>"; };
+		EA56549E2136D5CF00181F84 /* CountryListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListCell.swift; sourceTree = "<group>"; };
+		EA56549F2136D5CF00181F84 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		EA5654A02136D5CF00181F84 /* CountryListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryListVC.swift; sourceTree = "<group>"; };
+		EA57AFD22147B495006BE336 /* GroupDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDataModel.swift; sourceTree = "<group>"; };
+		EA5DFD802142301100CBA722 /* PartialAuditDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialAuditDetailVC.swift; sourceTree = "<group>"; };
+		EA5DFD8221423B6100CBA722 /* PartialAuditDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialAuditDetailCell.swift; sourceTree = "<group>"; };
+		EA5EA34B2154BA0A003229D0 /* futura_bold_font_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = futura_bold_font_0.ttf; sourceTree = "<group>"; };
+		EA5FE8AE2137BAEF00D5B283 /* ServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		EA5FE8B12137BB1600D5B283 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		EA5FE8B22137BB1600D5B283 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EA5FE8B72137C0D000D5B283 /* Litter-Stopper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Litter-Stopper-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA5FE8B92137C16C00D5B283 /* MessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageView.h; sourceTree = "<group>"; };
+		EA5FE8BA2137C16C00D5B283 /* MessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageView.m; sourceTree = "<group>"; };
+		EA5FE8BD2137C20F00D5B283 /* NotificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		EA5FE8BF2137C25700D5B283 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		EA5FE8C12137C2C400D5B283 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		EA5FE8C32137C45900D5B283 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EA5FE8D82137F8BC00D5B283 /* Futura Bold font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura Bold font.ttf"; sourceTree = "<group>"; };
+		EA5FE8D92137F8BE00D5B283 /* AvenirLTStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Book.otf"; sourceTree = "<group>"; };
+		EA5FE8DA2137F8C000D5B283 /* AvenirLTStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Medium.otf"; sourceTree = "<group>"; };
+		EA5FE8DB2137F8C200D5B283 /* AvenirLTStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Light.otf"; sourceTree = "<group>"; };
+		EA5FE8DC2137F8C400D5B283 /* AvenirLTStd-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirLTStd-Roman.otf"; sourceTree = "<group>"; };
+		EA5FE8E22137F94700D5B283 /* doktermonstroexpand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = doktermonstroexpand.ttf; sourceTree = "<group>"; };
+		EA5FE8E32137F94900D5B283 /* doktermonstrocond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = doktermonstrocond.ttf; sourceTree = "<group>"; };
+		EA671A8A213E54860064B683 /* WalkThroughVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughVC.swift; sourceTree = "<group>"; };
+		EA70DC2A214FC247006E3824 /* BeachpatrolUrlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachpatrolUrlVC.swift; sourceTree = "<group>"; };
+		EA70DC2C214FDC25006E3824 /* LOSUrlVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LOSUrlVc.swift; sourceTree = "<group>"; };
+		EA94F10F21648B5F00D87399 /* AboutCleanEditedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCleanEditedVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +128,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED1BF5A3C9BD64847AABCEC /* Pods_Litter_Stopper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B3C54A9B8D8B7AFF8A034E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2412F652D1574C5D47A2773A /* Pods-Litter Stopper.debug.xcconfig */,
+				69CE15024AD2CBDDFB8CEAAF /* Pods-Litter Stopper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		49272E122121976E0056358A = {
 			isa = PBXGroup;
 			children = (
 				49272E1D2121976E0056358A /* Litter Stopper */,
 				49272E1C2121976E0056358A /* Products */,
+				2B3C54A9B8D8B7AFF8A034E6 /* Pods */,
+				BF3C653C90BDD45CE057E3FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +165,167 @@
 		49272E1D2121976E0056358A /* Litter Stopper */ = {
 			isa = PBXGroup;
 			children = (
+				4953D578212EA15A0017D0BE /* Fonts */,
+				EA57AFD12147B0C2006BE336 /* Model Classes */,
+				49272E33212198D30056358A /* Cells */,
+				49272E32212198C90056358A /* Controllers */,
+				EA3DEFCF215233230027AA46 /* Amended Controllers */,
+				49272E30212198860056358A /* Manager Classes */,
+				49272E31212198A20056358A /* Constants */,
+				EA56549B2136D5AE00181F84 /* Helper Classes */,
 				49272E1E2121976E0056358A /* AppDelegate.swift */,
 				49272E202121976E0056358A /* ViewController.swift */,
+				EA5FE8B72137C0D000D5B283 /* Litter-Stopper-Bridging-Header.h */,
 				49272E222121976E0056358A /* Main.storyboard */,
 				49272E25212197700056358A /* Assets.xcassets */,
 				49272E27212197700056358A /* LaunchScreen.storyboard */,
 				49272E2A212197700056358A /* Info.plist */,
 			);
 			path = "Litter Stopper";
+			sourceTree = "<group>";
+		};
+		49272E30212198860056358A /* Manager Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA5FE8BF2137C25700D5B283 /* Reachability.swift */,
+				EA5FE8AE2137BAEF00D5B283 /* ServerManager.swift */,
+				49272E3C21219B640056358A /* AppManager.swift */,
+			);
+			path = "Manager Classes";
+			sourceTree = "<group>";
+		};
+		49272E31212198A20056358A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EA5FE8C32137C45900D5B283 /* Extensions.swift */,
+				EA5FE8C12137C2C400D5B283 /* Config.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		49272E32212198C90056358A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49747D24212AEEE5009FC736 /* HomeVC.swift */,
+				EA56549521366BBB00181F84 /* StartCleanVC.swift */,
+				49747D26212AEF19009FC736 /* BeachPatrolGroupVC.swift */,
+				49747D28212AEF41009FC736 /* LoveStreetGroupVC.swift */,
+				EA70DC2A214FC247006E3824 /* BeachpatrolUrlVC.swift */,
+				EA70DC2C214FDC25006E3824 /* LOSUrlVc.swift */,
+				492523A2212EE4E40082D921 /* AboutCleanVC.swift */,
+				491CC17F212FF23D00796FC4 /* AboutVC.swift */,
+				EA671A8A213E54860064B683 /* WalkThroughVC.swift */,
+				EA53805B213FBC8C00C45FCF /* BpLosVC.swift */,
+				EA3DEFD0215255300027AA46 /* FullAuditCleanVC.swift */,
+				EA26EC032140FD1000275CE1 /* PartialAuditVC.swift */,
+				EA26EC072141444F00275CE1 /* TimeAndEffortVc.swift */,
+				EA5DFD802142301100CBA722 /* PartialAuditDetailVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		49272E33212198D30056358A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				49747D2A212AF15F009FC736 /* GroupsCell.swift */,
+				EA53805F213FFC9300C45FCF /* BpLosCell.swift */,
+				EA5380612140087600C45FCF /* FullAuditCell.swift */,
+				EA26EC052140FD4400275CE1 /* PartialAuditCell.swift */,
+				EA5DFD8221423B6100CBA722 /* PartialAuditDetailCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4953D578212EA15A0017D0BE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EA5FE8E32137F94900D5B283 /* doktermonstrocond.ttf */,
+				EA5FE8E22137F94700D5B283 /* doktermonstroexpand.ttf */,
+				EA5FE8D92137F8BE00D5B283 /* AvenirLTStd-Book.otf */,
+				EA5FE8DB2137F8C200D5B283 /* AvenirLTStd-Light.otf */,
+				EA5FE8DA2137F8C000D5B283 /* AvenirLTStd-Medium.otf */,
+				EA5FE8DC2137F8C400D5B283 /* AvenirLTStd-Roman.otf */,
+				EA5FE8D82137F8BC00D5B283 /* Futura Bold font.ttf */,
+				EA5EA34B2154BA0A003229D0 /* futura_bold_font_0.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BF3C653C90BDD45CE057E3FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0DF404554F0A1CC7CADE80B /* Pods_Litter_Stopper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA3DEFCF215233230027AA46 /* Amended Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				491CC185212FF29200796FC4 /* TimeEffortVC.swift */,
+				EA94F10F21648B5F00D87399 /* AboutCleanEditedVC.swift */,
+				492523A0212EE4BE0082D921 /* AboutLoveStreetVC.swift */,
+				4925239E212EE4A70082D921 /* AboutBeachPatrolVC.swift */,
+				EA5380632140089500C45FCF /* FullAuditVC.swift */,
+				491CC183212FF27600796FC4 /* AdminLoginVC.swift */,
+			);
+			path = "Amended Controllers";
+			sourceTree = "<group>";
+		};
+		EA56549B2136D5AE00181F84 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA5FE8BC2137C20F00D5B283 /* NotifcationView */,
+				EA5FE8B82137C16C00D5B283 /* MessageView */,
+				EA5FE8B02137BB1600D5B283 /* MBProgressHUD */,
+				EA56549C2136D5CF00181F84 /* CountryCode */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		EA56549C2136D5CF00181F84 /* CountryCode */ = {
+			isa = PBXGroup;
+			children = (
+				EA56549D2136D5CF00181F84 /* DiallingCodes.plist */,
+				EA56549E2136D5CF00181F84 /* CountryListCell.swift */,
+				EA56549F2136D5CF00181F84 /* Country.swift */,
+				EA5654A02136D5CF00181F84 /* CountryListVC.swift */,
+			);
+			path = CountryCode;
+			sourceTree = "<group>";
+		};
+		EA57AFD12147B0C2006BE336 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EA57AFD22147B495006BE336 /* GroupDataModel.swift */,
+			);
+			path = "Model Classes";
+			sourceTree = "<group>";
+		};
+		EA5FE8B02137BB1600D5B283 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EA5FE8B12137BB1600D5B283 /* MBProgressHUD.m */,
+				EA5FE8B22137BB1600D5B283 /* MBProgressHUD.h */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		EA5FE8B82137C16C00D5B283 /* MessageView */ = {
+			isa = PBXGroup;
+			children = (
+				EA5FE8B92137C16C00D5B283 /* MessageView.h */,
+				EA5FE8BA2137C16C00D5B283 /* MessageView.m */,
+			);
+			path = MessageView;
+			sourceTree = "<group>";
+		};
+		EA5FE8BC2137C20F00D5B283 /* NotifcationView */ = {
+			isa = PBXGroup;
+			children = (
+				EA5FE8BD2137C20F00D5B283 /* NotificationView.swift */,
+			);
+			path = NotifcationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +335,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49272E2D212197700056358A /* Build configuration list for PBXNativeTarget "Litter Stopper" */;
 			buildPhases = (
+				1DF86DA0896547C0B71D273B /* [CP] Check Pods Manifest.lock */,
 				49272E172121976E0056358A /* Sources */,
 				49272E182121976E0056358A /* Frameworks */,
 				49272E192121976E0056358A /* Resources */,
+				7B64424804B723FDF56C79F4 /* [CP] Embed Pods Frameworks */,
+				EA5EA34D2154BAF7003229D0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -123,20 +390,117 @@
 			buildActionMask = 2147483647;
 			files = (
 				49272E29212197700056358A /* LaunchScreen.storyboard in Resources */,
+				EA5FE8E02137F8C600D5B283 /* AvenirLTStd-Light.otf in Resources */,
+				EA5FE8E12137F8C600D5B283 /* AvenirLTStd-Roman.otf in Resources */,
 				49272E26212197700056358A /* Assets.xcassets in Resources */,
+				EA5FE8E52137F94B00D5B283 /* doktermonstrocond.ttf in Resources */,
+				EA5654A12136D5CF00181F84 /* DiallingCodes.plist in Resources */,
+				EA5FE8DE2137F8C600D5B283 /* AvenirLTStd-Book.otf in Resources */,
 				49272E242121976E0056358A /* Main.storyboard in Resources */,
+				EA5FE8DD2137F8C600D5B283 /* Futura Bold font.ttf in Resources */,
+				EA5FE8E42137F94B00D5B283 /* doktermonstroexpand.ttf in Resources */,
+				EA5EA34C2154BA0A003229D0 /* futura_bold_font_0.ttf in Resources */,
+				EA5FE8DF2137F8C600D5B283 /* AvenirLTStd-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DF86DA0896547C0B71D273B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Litter Stopper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B64424804B723FDF56C79F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Litter Stopper/Pods-Litter Stopper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Litter Stopper/Pods-Litter Stopper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Litter Stopper/Pods-Litter Stopper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA5EA34D2154BAF7003229D0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 92c73ab7d5fb84966b830bdddfe549674f009d61 48b96e7d2426f7793a17cb05e0cbfcd6d6063a920ae83f460b87d5b86b291881";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49272E172121976E0056358A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA94F11021648B5F00D87399 /* AboutCleanEditedVC.swift in Sources */,
+				EA5FE8BB2137C16C00D5B283 /* MessageView.m in Sources */,
+				EA671A8B213E54870064B683 /* WalkThroughVC.swift in Sources */,
+				49272E3D21219B640056358A /* AppManager.swift in Sources */,
+				49747D25212AEEE5009FC736 /* HomeVC.swift in Sources */,
+				EA5FE8B32137BB1600D5B283 /* MBProgressHUD.m in Sources */,
+				EA5DFD812142301100CBA722 /* PartialAuditDetailVC.swift in Sources */,
+				49747D27212AEF19009FC736 /* BeachPatrolGroupVC.swift in Sources */,
+				EA538060213FFC9300C45FCF /* BpLosCell.swift in Sources */,
+				EA56549621366BBB00181F84 /* StartCleanVC.swift in Sources */,
+				EA5DFD8321423B6100CBA722 /* PartialAuditDetailCell.swift in Sources */,
+				49747D29212AEF41009FC736 /* LoveStreetGroupVC.swift in Sources */,
+				EA70DC2B214FC247006E3824 /* BeachpatrolUrlVC.swift in Sources */,
+				492523A1212EE4BE0082D921 /* AboutLoveStreetVC.swift in Sources */,
+				49747D2B212AF15F009FC736 /* GroupsCell.swift in Sources */,
+				EA5FE8BE2137C20F00D5B283 /* NotificationView.swift in Sources */,
+				EA5654A32136D5CF00181F84 /* Country.swift in Sources */,
+				EA5FE8C22137C2C500D5B283 /* Config.swift in Sources */,
+				EA70DC2D214FDC25006E3824 /* LOSUrlVc.swift in Sources */,
+				EA26EC082141444F00275CE1 /* TimeAndEffortVc.swift in Sources */,
 				49272E212121976E0056358A /* ViewController.swift in Sources */,
+				EA5FE8AF2137BAF000D5B283 /* ServerManager.swift in Sources */,
+				4925239F212EE4A70082D921 /* AboutBeachPatrolVC.swift in Sources */,
+				492523A3212EE4E40082D921 /* AboutCleanVC.swift in Sources */,
+				EA5380622140087600C45FCF /* FullAuditCell.swift in Sources */,
+				491CC184212FF27600796FC4 /* AdminLoginVC.swift in Sources */,
+				EA26EC062140FD4400275CE1 /* PartialAuditCell.swift in Sources */,
+				EA57AFD32147B495006BE336 /* GroupDataModel.swift in Sources */,
+				EA5380642140089600C45FCF /* FullAuditVC.swift in Sources */,
+				491CC180212FF23D00796FC4 /* AboutVC.swift in Sources */,
+				EA26EC042140FD1000275CE1 /* PartialAuditVC.swift in Sources */,
+				EA53805C213FBC8C00C45FCF /* BpLosVC.swift in Sources */,
 				49272E1F2121976E0056358A /* AppDelegate.swift in Sources */,
+				EA5FE8C42137C45900D5B283 /* Extensions.swift in Sources */,
+				EA3DEFD1215255300027AA46 /* FullAuditCleanVC.swift in Sources */,
+				491CC186212FF29200796FC4 /* TimeEffortVC.swift in Sources */,
+				EA5654A42136D5CF00181F84 /* CountryListVC.swift in Sources */,
+				EA5654A22136D5CF00181F84 /* CountryListCell.swift in Sources */,
+				EA5FE8C02137C25700D5B283 /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +577,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +631,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -278,35 +642,54 @@
 		};
 		49272E2E212197700056358A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2412F652D1574C5D47A2773A /* Pods-Litter Stopper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D8UCS65Y5X;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "Litter Stopper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sfs.Litter-Stopper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "686dbb43-2413-4fe0-838b-d5bbbc616379";
+				PROVISIONING_PROFILE_SPECIFIER = LitterDev;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/gurindersinghsekhon/Documents/Development/Sunfocus Projects/Litter Stopper/Litter Stopper/Litter-Stopper-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		49272E2F212197700056358A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69CE15024AD2CBDDFB8CEAAF /* Pods-Litter Stopper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D8UCS65Y5X;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "Litter Stopper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sfs.Litter-Stopper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e9fea454-e2ba-46e5-be19-9de31d732dbb";
+				PROVISIONING_PROFILE_SPECIFIER = LitterDist;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/gurindersinghsekhon/Documents/Development/Sunfocus Projects/Litter Stopper/Litter Stopper/Litter-Stopper-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
